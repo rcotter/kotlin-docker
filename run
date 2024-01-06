@@ -1,0 +1,6 @@
+#!/bin/bash
+source ./config.sh
+source ./stop
+source ./clean
+source ./build
+docker run --name $PROJECT_NAME $PROJECT_NAME
